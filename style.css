@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+:root {
+  --text-color: #111;
+  --bg-color: #b9b3a9;
+}
+
+body {
+  font-family: termina, sans-serif;
+  color: var(--text-color);
+  background: var(--bg-color);
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
+  overscroll-behavior: none;
+}
+
+section:not(#sectionPin) {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  padding: 50px 10vw;
+  margin: auto;
+}
+
+.pp {
+  color: #ffffff;
+  position: relative;
+  top: 400px;
+  left: 600px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 10rem;
+  line-height: 1;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 10vw;
+  left: 10vw;
+  z-index: 4;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 16vw;
+  }
+}
+h1 span {
+  display: block;
+}
+
+h2 {
+  font-size: 50px;
+  max-width: 400px;
+}
+
+.p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  line-height: normal;
+}
+
+.credit1 {
+  position: relative;
+  top: 200px;
+  left: 150px;
+  font-family: Termina, sans-serif;
+}
+.credit1 a {
+  color: var(--text-color);
+}
+
+.credit2 {
+  position: relative;
+  top: 200px;
+  left: 150px;
+  font-family: Termina, sans-serif;
+}
+.credit2 a {
+  color: #ffffff;
+}
+
+.credit3 {
+  position: relative;
+  top: 200px;
+  left: 150px;
+  font-family: "Kosugi Maru", sans-serif;
+}
+.credit3 a {
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section#s2 {
+  background: #60666b;
+  color: var(--bg-color);
+  place-items: center;
+}
+
+section#s3 {
+  background: url("https://i.imgur.com/xFWAg3I.jpg");
+}
+
+.b {
+  color: #b3b3b3;
+  place-items: center;
+}
+
+.Introduction-section-header {
+  color: #ffffff;
+  font-family: fantasy;
+  max-width: 640px;
+}
+
+.mm {
+  text-align: center;
+  font-family: fantasy;
+  color: #fff4e8;
+  max-width: 2000px;
+}
+
+.ss {
+  font-family: fantasy;
+  color: #ffffff;
+}
+
+#song {
+  background: #f2d8b3;
+}
+
+.ccolor {
+  background-color: #e3dcbc;
+}
+
+.div1 img {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s, 1s, 0s;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+}
+
+.div1 > img:hover {
+  border-radius: 50px;
+  box-shadow: 5px 5px 30px #454545;
+}
+
+.div2 img {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s, 1s, 0s;
+  border-radius: 10px;
+  border: solid 0.5px #000000;
+  width: 450px;
+  height: 350px;
+}
+
+.div2 > img:hover {
+  border-radius: 50px;
+  box-shadow: 5px 5px 30px #454545;
+}
+
+.div3 img {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s, 1s, 0s;
+  border-radius: 10px;
+  border: solid 0.5px #000000;
+  width: 350px;
+  height: 450px;
+}
+
+.div3 > img:hover {
+  border-radius: 50px;
+  box-shadow: 5px 5px 30px #454545;
+}
